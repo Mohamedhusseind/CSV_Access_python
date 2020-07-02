@@ -106,8 +106,4 @@ def write_csv_from_list_dict(filename, table, fieldnames, separator, quote):
                              fieldnames[3]: value[fieldnames[3]],
                              fieldnames[4]: value[fieldnames[4]]})       
 
-#print(write_csv_from_list_dict('output1.csv', [{'a': 10, 'c': 12, 'b': 11, 'd': 13, 'e': 14}, \
-#                                               {'a': 20, 'c': 22, 'b': 21, 'd': 23, 'e': 24}, \
-#                                               {'a': 30, 'c': 32, 'b': 31, 'd': 33, 'e': 34}, \
-#                                               {'a': 40, 'c': 42, 'b': 41, 'd': 43, 'e': 44}], \
-#                                              ['a', 'b', 'c', 'd', 'e'], ',', '"'))
+#print(write_csv_from_list_dict('output1.csv', [{'v': 15, 'b': 24, 'k': 18, 'e': 6, 'j': 5})
